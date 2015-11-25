@@ -6,43 +6,29 @@
 </head>
 <body>
 <script >
-    var month = prompt('Введите номер месяца','');
+/*    1.    Дан номер месяца (1 — январь, 2 — февраль, ...). Вывести название соответствующего времени года ("зима", "весна" и т.д.).    Решить через switch.*/
+
+    var month = prompt('Введите номер месяца года','');
     switch (month) {
+        case '12':
         case '1':
-            alert('Январь');
-            break;
         case '2':
-            alert('Февраль');
+            alert('Зима');
             break;
         case '3':
-            alert('Март');
-            break;
         case '4':
-            alert('Апрель');
-            break;
         case '5':
-            alert('Май');
+            alert('Весна');
             break;
         case '6':
-            alert('Июнь');
-            break;
         case '7':
-            alert('Июль');
-            break;
         case '8':
-            alert('Август');
+            alert('Лето');
             break;
         case '9':
-            alert('Сентябрь');
-            break;
         case '10':
-            alert('Октябрь');
-            break;
         case '11':
-            alert('Ноябрь');
-            break;
-        case '12':
-            alert('Декабрь');
+            alert('Осень');
             break;
         default:
             alert('Нет такого месяца');

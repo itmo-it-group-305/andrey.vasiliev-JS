@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+/*    6.    Значения переменных X, Y, Z поменять местами так, чтобы они оказались упорядоченными по возрастанию.*/
+
+    var x = window.prompt("Введите x");
+    x = parseInt(x);
+    var y = window.prompt("Введите y");
+    y = parseInt(y);
+    var z = window.prompt("Введите z");
+    z = parseInt(z);
+
+    if (x > y && y > z){
+        console.log(z, y, x);
+    }
+    if (x > z && z > y) {
+        console.log(y, z, x);
+    }
+    else if (z > x && x > y) {
+        console.log(y, x, z);
+    }
+    else if (z > y && y > x) {
+        console.log(x, y, z);
+    }
+    else if (y > z && z > x) {
+        console.log(x, z, y);
+    }
+    else if (y > x && x > z) {
+        console.log(z, x, y);
+    }
+</script>
+</body>
+</html>
