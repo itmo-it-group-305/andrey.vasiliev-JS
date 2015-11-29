@@ -6,6 +6,7 @@
 </head>
 <body>
 <script>
+
 /*5.
  Нарисовать равнобедренный треугольник из символов *. Высоту выбирает пользователь.
  Например: высота = 4, в браузере:
@@ -15,8 +16,19 @@
  *******
  Для вывода использовать document.write("ваш сформированный html")*/
 
+var lines = prompt('Введите высоту треугольника','');
+var line = '';
+document.write('<p align="center">');
+
+var zvezda = '*';
+document.write('*');
+document.write('<br>');
+for(i=1;i<lines; i++){
+    line+='*' + '*';
+    document.write(line);
+    document.write('<br>');
+}
 
 </script>
-
 </body>
 </html>
