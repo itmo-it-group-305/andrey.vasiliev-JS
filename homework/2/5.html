@@ -19,13 +19,12 @@
 var lines = prompt('Введите высоту треугольника','');
 var line = '';
 document.write('<p align="center">');
-
-var zvezda = '*';
 document.write('*');
 document.write('<br>');
 for(i=1;i<lines; i++){
     line+='*' + '*';
-    document.write(line);
+    z = line + '*';
+    document.write(z);
     document.write('<br>');
 }
 
