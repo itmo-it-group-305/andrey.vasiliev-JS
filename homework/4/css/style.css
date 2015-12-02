@@ -1,0 +1,35 @@
+@import "reset.css";
+@import "grid.css";
+
+
+.container{
+    text-align: center;
+
+    background-color: #FF9934;
+    position: absolute;
+    bottom:0;
+    top:0;
+    left:50%;
+    margin-left: -200px;
+    width: 390px;
+
+}
+.right{
+    padding-bottom: 10px;
+    text-align: right;
+    border-bottom: 1px solid;
+}
+.aaa{
+padding-top: 35px;
+
+}
+.wrapper{
+}
+
+.input_button{
+margin-right: 40px;
+}
+.col{
+padding: 50px;
+text-align: left;
+}
