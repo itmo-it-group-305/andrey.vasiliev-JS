@@ -4,39 +4,25 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
+
     <title>Title1</title>
 </head>
 <body>
+<!--Реализовать чат-->
     <div class="wrapper">
 
     <div class="container">
-        <div class="aaa">
-            <textarea name="window" id="" cols="40px" rows="10em">Однажды в студеную зимнюю пору</textarea>
-
+        <div class="form">
+            <textarea name="window" id="comment" cols="40px" rows="10em" >Однажды в студеную зимнюю пору</textarea>
             <div class="right">
-                        <input type="submit" value="отправить"  class="input_button">
+                        <input type="button" onclick='send(); return false;' value="отправить"  class="input_button">
             </div>
-            <div class="col">
-                <ul id="message">
+            <div class="message" id="message">
 
-                </ul>
             </div>
-
         </div>
     </div>
-
     </div>
-
-<script>
-    var parent =document.getElementById('message');
-    if(type="submit"){
-
-        var elm = document.createElement('p');
-        elm.innerHTML = '<p>Текст</p>';
-    }
-
-    document.body.style.backgroundColor = '#019DD8';
-</script>
-
+<script src="js/js.js"></script>
 </body>
 </html>

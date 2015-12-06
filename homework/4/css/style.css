@@ -1,10 +1,11 @@
 @import "reset.css";
 @import "grid.css";
 
-
+body{
+background-color: #019DD8;
+}
 .container{
     text-align: center;
-
     background-color: #FF9934;
     position: absolute;
     bottom:0;
@@ -12,24 +13,21 @@
     left:50%;
     margin-left: -200px;
     width: 390px;
-
 }
 .right{
     padding-bottom: 10px;
     text-align: right;
     border-bottom: 1px solid;
 }
-.aaa{
+.form{
 padding-top: 35px;
-
 }
 .wrapper{
 }
-
 .input_button{
 margin-right: 40px;
 }
-.col{
+.message{
 padding: 50px;
 text-align: left;
 }
